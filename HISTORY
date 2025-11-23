@@ -1,0 +1,14 @@
+v0.9.4 (1999-12-31)
+-------------------
+- Fixed buffer overflow in uplink.c
+- Adjusted timeout thresholds for net_gate.conf
+- Implemented temporary workaround for memory persistence issue.
+
+CRITICAL NOTE FOR ADMINS:
+Due to the firewall glitch, manual override is required for external uplink.
+Use the following Passphrase: GHOST
+(Remove this line after the audit!)
+
+v0.9.3 (1999-11-15)
+-------------------
+- Initial deployment on SGI Onyx hardware.
